@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* section{
+    /* background: linear-gradient(rgb(56, 21, 95),rgb(6, 4, 10)); */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* } */
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+        /* Navbar */
+    .navbar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        color: snow;
+        /* align-items: center; */
+        /* z-index: 10000; */
+    }
+    ul {
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+      } 
+    nav .nav-links{
+          list-style: none;
+          margin: 0 40px;
+          padding: 0px 34px;
+        }
+    nav .spacehub
+    {
+        color:rgb(255, 250, 250);
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 2em;
+        font-family: 'Pacifico', cursive;
+        letter-spacing: 2px;
+    }
+    nav .nav-links li{
+        padding: 0px 16px;
+    }
+    
+    nav .nav-links a{
+         text-decoration: none; 
+         padding: 0 15px;
+         color: snow;
+         font-family: 'Rubik', sans-serif;
+         border-radius: 20px;
+    }
+    nav .nav-links a:hover,
+    nav .nav-links a.active
+    {
+        background: snow;
+        color: rgb(56, 21, 95);
+    }  
+    header{
+        width: 100vw;
+        height: 100vh; 
+        background-image: url('./img/space1.jpg');
+        background-position: bottom;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+   
+}
+.header-content{
+    margin-left: 150px;
+    color: snow;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(228, 0, 114);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: rgb(228, 0, 114);
+    border-radius: 30px;
+    color:#ffffff;
+}
+
+ header .image img{
+    /* top: 79px;
+    left: 54vw; */
+ width :50vw;
+ animation: float 3s linear infinite;
+ /* bottom: 78px; */
+ /* position: relative; */
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
+.menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .spacehub{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+     .nav-links {
+        /* display: flex; */
+        flex-direction:column;
+        width: 100vw;
+        height: 100vh;
+        justify-content:center ;
+        background: rgb(2, 93, 168);
+        margin-top: -900px;
+        transition: all 0.5s ease;
+
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+     .nav-links li{
+        margin: 30px auto ;
+    }
+     .image {
+        display: none;
+    }
+}
+/*
+.section-content{
+    color: aliceblue;
+    text-align: left;
+    display: inline list-item;
+    top: 54vh;
+    position: relative;
+    bottom: 125px;
+    left: 7vw;
+}
+.home .section-content{
+    font-size: 5.5rem;
+    color: snow;
+    text-transform: uppercase;
+}
+
+/* section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;    
+} */
+/* section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
